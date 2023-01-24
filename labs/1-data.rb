@@ -12,6 +12,10 @@
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+ puts rand(1..6)
+ die_roll1 = rand(1..6)
+ die_roll2 = rand(1..6)
+ total = die_roll1 + die_roll2
+ puts "Total: #{total}"
 # Log output to the screen with puts:
 # puts "Hello, world"
