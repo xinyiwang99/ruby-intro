@@ -12,6 +12,21 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples"]
+shared_list = my_list + friend_list
+puts shared_list
+sorted_list = shared_list.sort # to store the new list you need to give it a variable
+unique_list = sorted_list.uniq
+
+puts"buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts "buy #{unique_list[4]}"
+puts "buy #{unique_list[5]}"
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
