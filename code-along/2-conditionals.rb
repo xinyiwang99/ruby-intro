@@ -64,4 +64,4 @@ if temp <80 && temp >60
     puts "it is so nice!"
 elsif temp >=80 || temp <= 60
     puts "why???"
-end
+    end 
